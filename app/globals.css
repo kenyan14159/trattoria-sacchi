@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+  /* Italian Theme Palette - White, Red, Green */
+  --background: #ffffff;
+  /* White */
+  --foreground: #1c1917;
+  /* stone-900 */
+
+  /* Accents */
+  --color-primary-red: #e11d48;
+  /* rose-600 */
+  --color-primary-green: #15803d;
+  /* green-700 */
+  --color-gold: #b45309;
+  /* amber-700 (kept as a warm accent, but less used) */
+  --color-gold-dim: #78350f;
+  --color-marble: #f5f5f4;
+
+  /* Semantic Re-mapping */
+  --color-primary: var(--color-primary-red);
+  --color-secondary: var(--color-primary-green);
+
+  /* Fonts */
+  --font-serif: var(--font-cinzel);
+  --font-sans: var(--font-lato);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary-red: var(--color-primary-red);
+  --color-primary-green: var(--color-primary-green);
+  --color-gold: var(--color-gold);
+
+  --font-display: var(--font-serif);
+  --font-body: var(--font-sans);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+/* Scrollbar Hide */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Texture - Subtle Paper/Stucco for Italian feel */
+.bg-noise {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.4;
+  /* Slightly more visible on white */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  filter: contrast(120%) brightness(100%);
+  mix-blend-mode: multiply;
+}
+
+/* Typography Utilities */
+.text-gold {
+  color: var(--color-primary-red);
+  /* Mapping 'text-gold' to Red for easy transition, or replace usage */
+}
+
+.text-green {
+  color: var(--color-primary-green);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
