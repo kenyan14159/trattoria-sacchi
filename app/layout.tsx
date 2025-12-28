@@ -281,7 +281,7 @@ export default function RootLayout({
         <meta name="ICBM" content="36.6769, 137.2115" />
       </head>
       <body
-        className={`${cinzel.variable} ${lato.variable} ${notoSansJP.variable} antialiased bg-white text-stone-900 selection:bg-primary-red/20 selection:text-primary-red overflow-hidden`}
+        className={`${cinzel.variable} ${lato.variable} ${notoSansJP.variable} antialiased bg-white text-stone-900 selection:bg-primary-red/20 selection:text-primary-red`}
       >
         <SmoothScroll>
           <Header />
