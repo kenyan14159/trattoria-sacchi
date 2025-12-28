@@ -8,14 +8,14 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ImageModal from "@/components/ui/ImageModal";
 
 const GALLERY_IMAGES = [
-    "/~Menu Gallery~1.jpg",
-    "/~Menu Gallery~2.jpg",
-    "/~Menu Gallery~3.jpg",
-    "/~Menu Gallery~4.jpg",
-    "/~Menu Gallery~5.jpg",
-    "/~Menu Gallery~6.jpg",
-    "/~Menu Gallery~7.jpg",
-    "/Garlic Shrimp Plate.jpg",
+    "/menu-gallery-1.jpg",
+    "/menu-gallery-2.jpg",
+    "/menu-gallery-3.jpg",
+    "/menu-gallery-4.jpg",
+    "/menu-gallery-5.jpg",
+    "/menu-gallery-6.jpg",
+    "/menu-gallery-7.jpg",
+    "/garlic-shrimp-plate.jpg",
 ];
 
 export default function MenuGallery() {

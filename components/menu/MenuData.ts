@@ -18,7 +18,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "lunch-plates",
         title: "Lunch Plates",
-        image: "/Daily pasta and chicken fritters.jpg",
+        image: "/daily-pasta-and-chicken-fritters.jpg",
         description: "ランチプレート - ご注文のお客様はケーキ・ジェラートが＋¥200(税込)",
         items: [
             {
@@ -34,7 +34,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "lunch-meat",
         title: "Lunch - Meat Dish",
-        image: "/Lunch - meat dishes -.jpg",
+        image: "/lunch-meat-dishes.jpg",
         description: "ランチ 〜肉料理〜",
         note: "※サラダ・ライスorパン・ドリンク付き",
         items: [
@@ -47,7 +47,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "lunch-pasta",
         title: "Lunch - Pasta & Risotto",
-        image: "/Lunch - 1 dish dish.jpg",
+        image: "/lunch-1-dish.jpg",
         description: "ランチ 〜1皿料理〜",
         note: "スパゲッティ or ニョッキ or ペンネ or リゾットからお選びいただけます。 ※1.5倍はプラス￥500",
         items: [
@@ -64,7 +64,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "salad",
         title: "Green Salad",
-        image: "/green salad.jpg",
+        image: "/green-salad.jpg",
         description: "グリーンサラダ",
         note: "※オリジナルドレッシング：バルサミコセサモ or 和風",
         items: [
@@ -79,7 +79,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "side-cold",
         title: "Cold Appetizers",
-        image: "/Cold side dishes.jpg",
+        image: "/cold-side-dishes.jpg",
         description: "冷製サイドメニュー",
         items: [
             { name: "タラモサラダ" },
@@ -93,7 +93,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "side-hot",
         title: "Hot Appetizers",
-        image: "/Hot side dishes.jpg",
+        image: "/hot-side-dishes.jpg",
         description: "温製サイドメニュー",
         items: [
             { name: "肉おでん" },
@@ -113,7 +113,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "pizza",
         title: "Pizza",
-        image: "/Pizza & Pasta.jpg",
+        image: "/pizza-pasta.jpg",
         description: "ピザ",
         items: [
             { name: "マルゲリータ" },
@@ -153,7 +153,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "sides-carb",
         title: "Bread & Rice & Soup",
-        image: "/Bread, rice, soup.jpg",
+        image: "/bread-rice-soup.jpg",
         description: "パン・ライス・スープ",
         items: [
             { name: "ライス" },
@@ -168,7 +168,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "main-dish",
         title: "Main Dish",
-        image: "/Single dish.jpg",
+        image: "/single-dish.jpg",
         description: "単品ディッシュ",
         items: [
             { name: "チキンステーキ", description: "デミグラス or トマト" },
@@ -182,7 +182,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "dolce",
         title: "Dolce & Gelato",
-        image: "/Sweets (desserts).jpg",
+        image: "/sweets-desserts.jpg",
         description: "スウィーツ（デザート）",
         items: [
             { name: "本日のドルチェ" },
@@ -199,7 +199,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "alcohol",
         title: "Alcohol",
-        image: "/Alcoholic drinks.jpg",
+        image: "/alcoholic-drinks.jpg",
         description: "アルコールドリンク",
         items: [
             { name: "生ビール", description: "285ml / 570ml" },
@@ -234,7 +234,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "softdrink",
         title: "Soft Drink / Coffee",
-        image: "/Soft drinks:coffee.jpg",
+        image: "/soft-drinks-coffee.jpg",
         description: "ソフトドリンク / コーヒー",
         items: [
             { name: "ウーロン茶" },
@@ -259,7 +259,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
         id: "course",
         title: "Course Menu",
-        image: "/Course:All-you-can-drink.jpg",
+        image: "/course-all-you-can-drink.jpg",
         description: "コース / 飲み放題",
         items: [
             { name: "ライトコース", price: "￥3,000", description: "定番メニューのフルコースを低価格でお楽しみいただけます。" },

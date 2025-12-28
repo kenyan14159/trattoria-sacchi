@@ -30,19 +30,19 @@ const MENU_ITEMS = [
 ];
 
 const MENU_GALLERY_IMAGES = [
-    "/~Menu Gallery~1.jpg",
-    "/~Menu Gallery~2.jpg",
-    "/~Menu Gallery~3.jpg",
-    "/~Menu Gallery~4.jpg",
-    "/~Menu Gallery~5.jpg",
-    "/~Menu Gallery~6.jpg",
-    "/~Menu Gallery~7.jpg",
+    "/menu-gallery-1.jpg",
+    "/menu-gallery-2.jpg",
+    "/menu-gallery-3.jpg",
+    "/menu-gallery-4.jpg",
+    "/menu-gallery-5.jpg",
+    "/menu-gallery-6.jpg",
+    "/menu-gallery-7.jpg",
 ];
 
 const INTERIOR_IMAGES = [
-    "/Interior and exterior1.jpg",
-    "/Interior and exterior2.jpg",
-    "/Interior and exterior3.jpg",
+    "/interior-1.jpg",
+    "/interior-2.jpg",
+    "/interior-3.jpg",
 ];
 
 export default function Menu() {
